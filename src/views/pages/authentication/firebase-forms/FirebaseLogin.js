@@ -267,7 +267,10 @@ const FirebaseLogin = (props, { ...others }) => {
 
                         <Box
                             sx={{
-                                mt: 2
+                                mt: 2,
+                                width: "100%",
+                                display: "flex",
+                                justifyContent: "center",
                             }}
                         >
                             <AnimateButton>
